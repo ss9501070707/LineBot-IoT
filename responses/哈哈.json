@@ -9,9 +9,10 @@
         "text": "87",
         "actions": [
           {
-            "type": "message",
+            "type": "postback",
             "label": "使用狀況查詢",
-            "text": "洗衣機壞掉惹"
+            "text": "使用狀況查詢",
+            "data": "eo4"
           },
           {
             "type": "message",
