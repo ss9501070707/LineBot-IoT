@@ -12,17 +12,13 @@
             "type": "postback",
             "label": "使用狀況查詢",
             "text": "使用狀況查詢",
-            "data": "eo4"
+            "data": "資料 1"
           },
           {
-            "type": "message",
+            "type": "postback",
             "label": "空位查詢",
-            "text": "Error 404"
-          },
-          {
-            "type": "message",
-            "label": " -",
-            "text": "點屁啦!"
+            "text": "空位查詢",
+            "data": "資料 2"
           }
         ]
       }
