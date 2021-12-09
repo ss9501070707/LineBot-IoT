@@ -9,16 +9,19 @@
         "text": "87",
         "actions": [
           {
-            "type": "postback",
+            "type": "message",
             "label": "使用狀況查詢",
-            "text": "使用狀況查詢",
-            "data": "資料 1"
+            "text": "洗衣機壞掉惹"
           },
           {
-            "type": "postback",
+            "type": "message",
             "label": "空位查詢",
-            "text": "空位查詢",
-            "data": "資料 2"
+            "text": "Error 404"
+          },
+          {
+            "type": "message",
+            "label": " -",
+            "text": "點屁啦!"
           }
         ]
       }
