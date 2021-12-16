@@ -1,4 +1,24 @@
 {
-  "type": "text",
-  "text": "99"
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "columns": [
+      {
+        "text": "空位查詢",
+        "actions": [
+          {
+            "type": "message",
+            "label": "左邊那台",
+            "text": "我覺得右邊那台比較好用~"
+          },
+          {
+            "type": "message",
+            "label": "右邊那台",
+            "text": "我覺得左邊那台比較好用~"
+          }
+        ]
+      }
+    ]
+  }
 }
