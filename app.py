@@ -124,5 +124,5 @@ def onFollow(event):
     使用者【關注】事件
     """
     print("使用者關注", event, flush=True) 
-    message = response.make_response('onFollow')
+    message = response.make_response(user.getuser(event.source.user_id), 'onFollow', '', '')
     linebot_api.reply_message(event.reply_token, message)
