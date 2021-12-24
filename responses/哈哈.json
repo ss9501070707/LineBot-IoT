@@ -5,20 +5,14 @@
     "type": "carousel",
     "columns": [
       {
-        "title": "想要我做啥?",
-        "text": "87",
+        "title": "歡迎使用洗衣機查詢系統",
+        "text": "請點選以下功能",
         "actions": [
           {
             "type": "postback",
             "label": "使用狀況查詢",
             "text": "使用狀況查詢",
             "data": "資料 1"
-          },
-          {
-            "type": "postback",
-            "label": "空位查詢",
-            "text": "空位查詢",
-            "data": "資料 2"
           }
         ]
       }
