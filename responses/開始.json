@@ -1,6 +1,6 @@
 {
   "type": "template",
-  "altText": "this is a carousel template",
+  "altText": "歡迎使用洗衣機查詢系統",
   "template": {
     "type": "carousel",
     "columns": [
