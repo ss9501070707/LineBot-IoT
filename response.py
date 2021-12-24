@@ -23,7 +23,7 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
     # Init
     if user.state == 0:
         user.state = 1
-        return generate_response_from_directory('welcome')
+        return generate_response_from_directory('您好\n歡迎使用洗衣機空位查詢系統\n請輸入\"開始\"進行查詢')
 
     # Basic state
     elif user.state == 1:
