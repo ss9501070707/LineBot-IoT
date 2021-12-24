@@ -1,6 +1,6 @@
 {
   "type": "template",
-  "altText": "this is a carousel template",
+  "altText": "使用狀況查詢",
   "template": {
     "type": "carousel",
     "columns": [
