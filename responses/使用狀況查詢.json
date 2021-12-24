@@ -5,7 +5,7 @@
     "type": "carousel",
     "columns": [
       {
-        "text": "空位查詢",
+        "text": "使用狀況查詢",
         "actions": [
           {
             "type": "message",
