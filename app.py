@@ -3,7 +3,7 @@ import tempfile
 import threading
 import traceback
 
-from linebot.models import MessageEvent, TextMessage, TextSendMessage, ImageMessage, VideoMessage, AudioMessage
+from linebot.models import MessageEvent, FollowEvent, TextMessage, TextSendMessage, ImageMessage, VideoMessage, AudioMessage
 
 from linebot import LineBotApi
 from linebot.webhook import WebhookHandler
