@@ -117,3 +117,12 @@ def on_message(event):
         linebot_api.link_rich_menu_to_user(event.source.user_id, attach_rich_menu_id)
     else:
         linebot_api.unlink_rich_menu_from_user(event.source.user_id)
+        
+@webhook_handler.add(FollowEvent)
+def onFollow(event):
+    """
+    使用者【關注】事件
+    """
+    print("使用者關注", event, flush=True) 
+    message = response.make_response('onFollow')
+    linebot_api.reply_message(event.reply_token, message)
