@@ -32,22 +32,22 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
         # elif message == 'guess':
         #   user.state = 100
         #   return generate_response_from_directory('guess')
-        if message == '使用狀況查詢':
+        #if message == '使用狀況查詢':
 
-            gc = pygsheets.authorize(service_account_file='mashing-335905-f593184842f2.json')
-            survey_url = 'https://docs.google.com/spreadsheets/d/1fwfwM_nM5NcBXmSqGRM500fOKj6DqaEA5iQomZlNysY/edit#gid=0'
-            sh = gc.open_by_url(survey_url)
+            #gc = pygsheets.authorize(service_account_file='mashing-335905-f593184842f2.json')
+            #survey_url = 'https://docs.google.com/spreadsheets/d/1fwfwM_nM5NcBXmSqGRM500fOKj6DqaEA5iQomZlNysY/edit#gid=0'
+            #sh = gc.open_by_url(survey_url)
             
-            ws = sh.worksheet_by_title('工作表1')
-            ws.update_value('A1', 'test')
+            #ws = sh.worksheet_by_title('工作表1')
+            #ws.update_value('A1', 'test')
 
-            df1 = pd.DataFrame({'a': [1, 2], 'b': [3, 4]})
-            ws.set_dataframe(df1, 'A2', copy_index=True, nan='')
+            #df1 = pd.DataFrame({'a': [1, 2], 'b': [3, 4]})
+            #ws.set_dataframe(df1, 'A2', copy_index=True, nan='')
             
-            val = ws.get_value('A1')
-            df2 = ws.get_as_df(start='A2', index_colum=1, empty_value='', include_tailing_empty=False)
+            #val = ws.get_value('A1')
+            #df2 = ws.get_as_df(start='A2', index_colum=1, empty_value='', include_tailing_empty=False)
             
-        return generate_response_from_directory(message)  # should remove this
+        #return generate_response_from_directory(message)  # should remove this
 
     # Guess number
     # elif user.state == 100:
